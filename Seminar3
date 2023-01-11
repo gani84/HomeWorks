@@ -1,0 +1,56 @@
+//1
+
+/*Console.Write("Input number ");
+int number1 = Convert.ToInt32(Console.ReadLine());
+int ncp=number1;
+int number2=0;
+while (number1 > 0)
+{
+    int t= number1%10;
+    number1=number1/10;
+    number2 = number2*10;
+    number2 = number2 + t;
+}
+if (ncp==number2)
+{
+    Console.WriteLine("Полиндром");
+}
+else
+{
+    Console.WriteLine("Не полиндром");
+}*/
+
+//2
+
+/*double Funct(double xPos, double yPos, double xPos1, double yPos1, double xPos2, double yPos2)
+{
+  return Math.Sqrt(Math.Pow(xPos - xPos1, 2) + Math.Pow(yPos - yPos1, 2) + Math.Pow(yPos - yPos1, 2));    
+}
+
+Console.Write("Веведите x");
+double x=Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Веведите y");
+double y=Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Веведите x1");
+double x1=Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Веведите y1");
+double y1=Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Веведите x2");
+double x2=Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Веведите y2");
+double y2=Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine(Funct(x,y,x1,y1,x2,y2));*/
+
+
+//3
+
+Console.Write("Input number ");
+int n = Convert.ToInt32(Console.ReadLine());
+for (int i=1;i<n;i++)
+            Console.WriteLine(i*i*i);
